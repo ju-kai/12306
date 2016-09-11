@@ -1,0 +1,2309 @@
+2016-08-03 23:26:29 [scrapy] INFO: Scrapy 1.0.3 started (bot: train12306)
+2016-08-03 23:26:29 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-08-03 23:26:29 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'train12306.spiders', 'BOT_NAME': 'train12306', 'SPIDER_MODULES': ['train12306.spiders'], 'LOG_ENABLED': False, 'LOG_FILE': 'scrapy.log', 'DOWNLOAD_DELAY': 3}
+2016-08-03 23:36:38 [scrapy] INFO: Scrapy 1.0.3 started (bot: train12306)
+2016-08-03 23:36:38 [scrapy] INFO: Optional features available: ssl, http11, boto
+2016-08-03 23:36:38 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'train12306.spiders', 'SPIDER_MODULES': ['train12306.spiders'], 'LOG_FILE': 'scrapy.log', 'DOWNLOAD_DELAY': 3, 'BOT_NAME': 'train12306'}
+2016-08-03 23:36:41 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-08-03 23:36:42 [boto] DEBUG: Retrieving credentials from metadata server.
+2016-08-03 23:36:42 [boto] ERROR: Caught exception reading instance data
+Traceback (most recent call last):
+  File "C:\Anaconda2\lib\site-packages\boto\utils.py", line 210, in retry_url
+    r = opener.open(req, timeout=timeout)
+  File "C:\Anaconda2\lib\urllib2.py", line 431, in open
+    response = self._open(req, data)
+  File "C:\Anaconda2\lib\urllib2.py", line 449, in _open
+    '_open', req)
+  File "C:\Anaconda2\lib\urllib2.py", line 409, in _call_chain
+    result = func(*args)
+  File "C:\Anaconda2\lib\urllib2.py", line 1227, in http_open
+    return self.do_open(httplib.HTTPConnection, req)
+  File "C:\Anaconda2\lib\urllib2.py", line 1197, in do_open
+    raise URLError(err)
+URLError: <urlopen error [Errno 10051] >
+2016-08-03 23:36:42 [boto] ERROR: Unable to read instance data, giving up
+2016-08-03 23:36:43 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, DownloaderMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-08-03 23:36:43 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-08-03 23:36:43 [scrapy] INFO: Enabled item pipelines: TicketSQLPipeline
+2016-08-03 23:36:43 [scrapy] INFO: Spider opened
+2016-08-03 23:36:43 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-08-03 23:36:43 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-08-03 23:36:43 [py.warnings] WARNING: C:\Anaconda2\lib\site-packages\service_identity\pyopenssl.py:97: SubjectAltNameWarning: Certificate has no `subjectAltName`, falling back to check for a `commonName` for now.  This feature is being removed by major browsers and deprecated by RFC 2818.
+  SubjectAltNameWarning
+
+2016-08-03 23:36:44 [scrapy] DEBUG: Crawled (200) <GET https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936> (referer: None)
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:44 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] DEBUG: Scraped from <200 https://kyfw.12306.cn/otn/resources/js/framework/station_name.js?station_version=1.8936>
+None
+2016-08-03 23:36:45 [scrapy] INFO: Received SIGBREAK, shutting down gracefully. Send again to force 
